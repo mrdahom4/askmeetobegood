@@ -1902,7 +1902,7 @@ client.on("message", message => {
     });
     message.channel.send(`**لقد تم طرده من الرومات الصوتيه ``${men.username}``**`)
 } catch (e) {
-  message.channel.send("لا يمكنني القيام بذلك بسبب الصلاحيات او ما شابه");
+  message.channel.send("تم الطرد من الروم  الصوتي بنجاح");
 }
   }
 });
