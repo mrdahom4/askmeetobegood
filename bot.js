@@ -1928,7 +1928,7 @@ const queue = new Map();
 
 
 
-const fs = require('fs');
+
 
 const gif = require("gif-search");
 
