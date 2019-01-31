@@ -1902,7 +1902,7 @@ client.on("message", message => {
     });
     message.channel.send(`**لقد تم طرده من الرومات الصوتيه ``${men.username}``**`)
 } catch (e) {
-  message.channel.send("**لقد تم الطرد بنجاح**");
+  message.channel.send("**لقد تم طرد ${mention.user.username} **");
 }
   }
 });
