@@ -1900,9 +1900,9 @@ client.on("message", message => {
       c.delete()
     }, 100)
     });
-
-} catch (e) {
     message.channel.send(`**لقد تم طرده من الرومات الصوتيه ``${men.username}``**`)
+} catch (e) {
+  message.channel.send("**لقد تم طرده من الرومات الصوتيه ``${men.username}``**");
 }
   }
 });
