@@ -1902,7 +1902,7 @@ client.on("message", message => {
     });
     message.channel.send(`**لقد تم طرده من الرومات الصوتيه ``${men.username}``**`)
 } catch (e) {
-  message.channel.send("**:white_check_mark: ${mention.user.username}We have been successfully kick **");
+  message.channel.send("**:white_check_mark:{mention.user.username}We have been successfully kick **");
 }
   }
 });
